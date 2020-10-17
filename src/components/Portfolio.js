@@ -44,9 +44,10 @@ const projects = [
   },
   {
     name: "About Me（当サイト）",
-    description: `Reactを使ったポートフォリオ紹介サイトです。レスポンシブ対応。`,
+    description: `ReactとFirebaseを使った自己紹介サイトです。レスポンシブ対応。`,
     image: project2,
-    link: "/"
+    link: "/",
+    github: "https://github.com/mitubakuro/about-me"
   },
   {
     name: "Rate It",
