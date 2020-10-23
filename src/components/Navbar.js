@@ -62,7 +62,7 @@ const Navbar = () => {
   const sideList = () => (
     <Box className={classes.menuSliderContainer} component="div">
       <Avatar className={classes.avatar} src={avatar} alt="Eiji Nakano" />
-      <Divider />
+      <Divider/>
       <List>
         {menuItems.map((item, i) => (
           <ListItem
@@ -97,7 +97,7 @@ const Navbar = () => {
           </Toolbar>
         </AppBar>
       </Box>
-      <Drawer open={open} anchor="right" onClose={() => setOpen(false)}>
+      <Drawer open={open} anchor="left" onClose={() => setOpen(false)}>
         {sideList()}
         <Footer />
       </Drawer>
