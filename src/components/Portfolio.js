@@ -53,6 +53,8 @@ const projects = [
     name: "Rate It",
     description: `Rails+Reactのレビューサイトです。現在開発中...`,
     image: project3,
+    link: "https://rate-it-28726.herokuapp.com/",
+    github: "https://github.com/mitubakuro/rate-it"
   },
 ];
 
@@ -83,10 +85,10 @@ const Portfolio = () => {
               </CardActionArea>
               <CardActions>
                 <Button size="small" color="primary">
-                  <a href={project.link} className={classes.link}><LaunchIcon/></a>
+                  <a href={project.link} className={classes.link} target="_blank" rel="noopener noreferrer"><LaunchIcon/></a>
                 </Button>
                 <Button size="small" color="primary">
-                  <a href={project.github} className={classes.link}><GitHubIcon/></a>
+                  <a href={project.github} className={classes.link} target="_blank" rel="noopener noreferrer"><GitHubIcon/></a>
                 </Button>
               </CardActions>
             </Card>
